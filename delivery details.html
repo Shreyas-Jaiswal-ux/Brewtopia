@@ -8,6 +8,7 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
     }
 
     .navbar {
@@ -21,12 +22,32 @@
       text-decoration: none;
     }
 
-    .form-container {
-      background-color: #f8f9fa;
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .delivery-options {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 30px;
+    }
+
+    .delivery-options img {
+      width: 80px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    .form-box {
+      max-width: 1000px;
+      margin: 0 auto;
       padding: 30px;
-      border-radius: 10px;
-      max-width: 800px;
-      margin: 50px auto;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
 
     footer {
@@ -34,12 +55,20 @@
       color: white;
       padding: 20px 0;
       text-align: center;
+      margin-top: 40px;
     }
 
     footer a {
       color: white;
       margin: 0 10px;
       text-decoration: none;
+    }
+
+    .btn-submit {
+      background-color: #007dc5;
+      color: white;
+      font-weight: bold;
+      width: 100%;
     }
   </style>
 </head>
@@ -50,66 +79,24 @@
     <a class="navbar-brand text-white fw-bold" href="#">☕ Brewtopia</a>
     <div class="ms-auto">
       <a href="index.html">Home</a>
-      <a href="delivery details.html">Order</a>
-      <a href="order summary.html">Summary</a>
+      <a href="order summary.html">Menu</a>
+      <a href="delivery details.html">Store Locator</a>
+      <a href="#">Contact</a>
     </div>
   </nav>
 
-  <!-- Delivery Form -->
-  <div class="form-container">
-    <h2 class="text-center mb-4">Delivery & Address Details</h2>
+  <!-- Heading -->
+  <h2>Select Delivery Option For Your Online Order</h2>
 
-    <form>
-      <div class="row mb-3">
-        <div class="col-md-6">
-          <label for="name">Full Name</label>
-          <input type="text" id="name" class="form-control" placeholder="John Doe" required />
-        </div>
-        <div class="col-md-6">
-          <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" class="form-control" placeholder="07XXXXXXXXX" required />
-        </div>
-      </div>
+  <!-- Delivery Platforms -->
+  <div class="delivery-options">
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Uber_Eats_2020_logo.svg/512px-Uber_Eats_2020_logo.svg.png" alt="Uber Eats">
+      <p class="text-center fw-bold">Uber Eats</p>
+    </div>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Deliveroo_logo.svg/512px-Deliveroo_logo.svg.png" alt="Deliveroo">
+      <p class="text-center fw-bold">Deliveroo</p>
 
-      <div class="mb-3">
-        <label for="address">Street Address</label>
-        <input type="text" id="address" class="form-control" placeholder="123 Coffee Lane" required />
-      </div>
-
-      <div class="row mb-3">
-        <div class="col-md-6">
-          <label for="city">City</label>
-          <input type="text" id="city" class="form-control" required />
-        </div>
-        <div class="col-md-3">
-          <label for="postcode">Postcode</label>
-          <input type="text" id="postcode" class="form-control" required />
-        </div>
-        <div class="col-md-3">
-          <label for="email">Email (optional)</label>
-          <input type="email" id="email" class="form-control" />
-        </div>
-      </div>
-
-      <div class="mb-3">
-        <label for="notes">Delivery Instructions</label>
-        <textarea id="notes" class="form-control" rows="3" placeholder="e.g., 'Leave by the door.'"></textarea>
-      </div>
-
-      <button type="submit" class="btn btn-info text-white px-4">Place Order</button>
-    </form>
-  </div>
-
-  <!-- Footer -->
-  <footer class="mt-5">
-    <p>&copy; Copyright Brewtopia Design 2025</p>
-    <a href="#">Careers</a> |
-    <a href="#">About Us</a> |
-    <a href="#">FAQs</a> |
-    <a href="#">T&C</a>
-  </footer>
-
-</body>
-</html>
 
   
