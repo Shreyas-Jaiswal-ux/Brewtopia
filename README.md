@@ -1,77 +1,124 @@
-# Brewtopia – Responsive Front-End UI
+# Brewtopia – Responsive Front-End UI ☕
 
-## 📌 Project Description
-Brewtopia is a fictional coffee shop website built using HTML5, CSS3, and Bootstrap. This responsive front-end prototype allows users to locate nearby stores, order online via delivery partners, and view order summaries.
+Brewtopia is a fictional coffee shop website built using **HTML5**, **CSS3**, and **Bootstrap 5**.  
+It allows users to:
 
----
-
-## 🧑‍💼 User Stories
-- As a user, I want to easily find the nearest Brewtopia store so I can visit or order.
-- As a user, I want to choose my preferred delivery service and fill in order details.
-- As a user, I want to see a clear summary of my order with accurate pricing and checkout options.
+- Locate nearby Brewtopia stores
+- Select delivery platforms
+- Submit delivery details
+- View a complete order summary
 
 ---
 
-## 🌐 Pages Overview
-| Page | Description |
-|------|-------------|
-| `index.html` | Store Locator with map and results |
-| `order.html` | Delivery selection and user form |
-| `menu.html` | Order summary with total breakdown |
+## 📌 Project Features
+
+- 🗺️ Store Locator with real-time map embed
+- 🚚 Delivery selection form with platform logos
+- ✅ Form validation and responsive inputs
+- 🧾 Order summary with product breakdown and totals
+- 📬 Contact form with submission fields
 
 ---
 
-## 🧪 Testing
+## 👥 User Stories
 
-### ✅ Manual Testing
-- Checked responsiveness on mobile and desktop
-- All buttons and links working
-- Navigation menu loads correctly on all pages
-- Forms accept input with proper fields
-
-### ✅ Validation
-- HTML checked via [W3C Validator](https://validator.w3.org/)
-- CSS checked via [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-- No major issues found in either
+- As a user, I want to find the nearest Brewtopia store.
+- As a user, I want to choose a delivery method and enter my order details.
+- As a user, I want to review my order summary before checkout.
+- As a user, I want to contact Brewtopia with a message or query.
 
 ---
 
-## 🗃️ Development Process
-- Wireframes were redesigned based on Assignment 2 feedback
-- Used Bootstrap for faster layout and mobile responsiveness
-- Included map placeholder and third-party logos for realism
-- No AI-generated content used in code
+## 📄 Pages Overview
 
-### 📸 Screenshots
-*(Insert screenshots of wireframes and final UI here)*
+| Page               | Description                                      |
+|--------------------|--------------------------------------------------|
+| `index.html`       | Store locator with map and results               |
+| `order summary.html` | Summary of the order including subtotal & total |
+| `delivery details.html` | Delivery partner selection + user form     |
+| `contact.html`     | Contact form with message section                |
 
 ---
 
-## ⚙️ How to Run
-1. Clone or download this repository
-2. Open `index.html` in your browser
-3. Navigate between pages using the navbar
+## ✅ Manual Testing
+
+- All buttons & links function as expected
+- Navigation works between all pages
+- Forms validate required fields
+- Design adapts well on desktop and mobile
+
+---
+
+## 🧪 Validation
+
+- ✔️ HTML passed [W3C Validator](https://validator.w3.org/)
+- ✔️ CSS passed [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- No major warnings or errors found
+
+---
+
+## 🛠️ Development Notes
+
+- Bootstrap used for layout and mobile responsiveness
+- Navigation redesigned after user feedback (Assignment 2)
+- Google Maps embedded without JS frameworks
+- No AI-generated code used
+
+---
+
+## 📸 Screenshots
+
+### 🗺️ Store Locator (index.html)
+![Store Locator] ![image](https://github.com/user-attachments/assets/9571d309-deb2-4318-92ad-47f8a2418000)
+
+
+### 🧾 Order Summary
+![Order Summary] ![image](https://github.com/user-attachments/assets/04a81b5f-acdc-48a2-b6e8-d1f947d49e60)
+
+
+### 🚚 Delivery Form
+![image](https://github.com/user-attachments/assets/74c82ec4-4703-4efc-8a30-01a5c02ec2c5)
+
+
+### 📬 Contact Page
+![Contact Page](Screenshot Brewtopia contact us form.png)
+
+---
+
+## ▶️ How to Run
+
+1. Clone/download this repo  
+2. Open `index.html` in your browser  
+3. Use navbar to explore all pages  
 
 ---
 
 ## 🔁 Version Control
-- GitHub repo created and updated with commits:
-  - `Initial structure`
-  - `Added index and Bootstrap`
-  - `Created order.html page`
-  - `Finalised menu.html and testing`
-- See commit history on GitHub for full process
+
+GitHub repo updated with commits such as:
+
+- Initial setup with Bootstrap
+- Delivery form created
+- Order summary styled and validated
+- Final UI screenshots added
+- Contact page completed and deployed
 
 ---
 
-## 🧾 Attribution
-- Bootstrap: [https://getbootstrap.com](https://getbootstrap.com)
-- Delivery logos: Wikipedia Commons
-- Images: Unsplash (freely usable under license)
+## 🛠 Attribution
+
+- **Bootstrap 5** — [https://getbootstrap.com](https://getbootstrap.com)
+- **Map Embed** — Google Maps (iframe only)
+- **Logos** — Wikipedia Commons (Uber Eats, Just Eat, Deliveroo)
+- **Product Images** — Unsplash
 
 ---
 
-## 🌍 Deployment
-Deployed via GitHub Pages / Netlify  
-🔗 [Live Site Link](https://yourusername.github.io/brewtopia) *(replace with your actual link)*  
-🔗 [GitHub Repository](https://github.com/yourusername/brewtopia)
+## 🚀 Deployment
+
+Live Site: [https://shreyas-jaiswal-ux.github.io/Brewtopia](https://shreyas-jaiswal-ux.github.io/Brewtopia)  
+Hosted with **GitHub Pages**
+
+---
+
+© 2025 Brewtopia — Designed by Shreyas Jaiswal
