@@ -68,19 +68,19 @@ It allows users to:
 
 ## 📸 Screenshots
 
-### 🗺️ Store Locator (index.html)
-![Store Locator] ![image](https://github.com/user-attachments/assets/9571d309-deb2-4318-92ad-47f8a2418000)
+### 🗺️ Store Locator (index.html) - 	https://shreyas-jaiswal-ux.github.io/Brewtopia/index.html
+ ![image](https://github.com/user-attachments/assets/9571d309-deb2-4318-92ad-47f8a2418000)
 
 
-### 🧾 Order Summary
+### 🧾 Order Summary - 	https://shreyas-jaiswal-ux.github.io/Brewtopia/order%20summary.html
 ![Order Summary] ![image](https://github.com/user-attachments/assets/04a81b5f-acdc-48a2-b6e8-d1f947d49e60)
 
 
-### 🚚 Delivery Form
+### 🚚 Delivery Form - 	https://shreyas-jaiswal-ux.github.io/Brewtopia/delivery%20details.html
 ![image](https://github.com/user-attachments/assets/74c82ec4-4703-4efc-8a30-01a5c02ec2c5)
 
 
-### 📬 Contact Page
+### 📬 Contact Page - 	https://shreyas-jaiswal-ux.github.io/Brewtopia/contact.html
 ![Contact Page](Screenshot Brewtopia contact us form.png)
 
 ---
