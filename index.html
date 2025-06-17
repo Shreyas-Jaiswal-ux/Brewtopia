@@ -1,65 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brewtopia | Store Locator</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    body { font-family: 'Segoe UI', sans-serif; }
-    .navbar { background-color: #3298c8; }
-    .navbar a { color: white; font-weight: 500; margin-right: 15px; text-decoration: none; }
-    .search-section { padding: 40px 20px; text-align: center; }
-    .store-box { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 15px; }
-    .map-container { background-color: #e0e0e0; border-radius: 8px; overflow: hidden; height: 400px; }
-    footer { background-color: #3298c8; color: white; text-align: center; padding: 10px 0; margin-top: 40px; }
-    .footer-links a { color: white; margin: 0 10px; text-decoration: none; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+    }
+    .navbar {
+      background-color: #3298c8;
+    }
+    .navbar a {
+      color: white;
+      font-weight: 500;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    .search-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .store-box {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    .map-container {
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    footer {
+      background-color: #3298c8;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 40px;
+    }
+    .footer-links a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
 
+<!-- ✅ Navbar -->
 <nav class="navbar navbar-expand-lg px-4">
   <a class="navbar-brand text-white fw-bold" href="index.html">☕ Brewtopia</a>
   <div class="ms-auto">
     <a href="index.html">Home</a>
-    <a href="order%20summary.html">Order</a>
-    <a href="delivery%20details.html">Delivery</a>
+    <a href="order summary.html">Order</a>
+    <a href="delivery details.html">Delivery</a>
     <a href="contact.html">Contact</a>
   </div>
 </nav>
 
+<!-- 🔍 Search Section -->
 <div class="search-section">
   <h2>Find a Coffee Shop Near You</h2>
-  <input type="text" placeholder="Enter city, postcode, or store name" class="form-control w-50 mx-auto mt-3">
+  <input type="text" placeholder="Enter city, postcode, or store name" class="form-control w-50 mx-auto mt-3" />
 </div>
 
+<!-- 🗺️ Store List + Map -->
 <div class="container mb-5">
   <div class="row">
+    <!-- Left: Store Results -->
     <div class="col-md-5">
       <h5><strong>Search Results:</strong></h5>
+
       <div class="store-box">
-        <strong>Espresso Vibes</strong><br>
-        20 Coffee Crescent, AL8 2 2HZ<br>
-        Distance: 0.2 miles<br>
-        <span style="color: green;">Closes at 5pm, in 2hr 23min</span><br>
+        <strong>Espresso Vibes</strong><br />
+        20 Coffee Crescent, AL8 2 2HZ<br />
+        Distance: 0.2 miles<br />
+        <span style="color: green;">Closes at 5pm, in 2hr 23min</span><br />
         Click & Collect, Delivery, WC, Free Wi-Fi
       </div>
+
       <div class="store-box">
-        <strong>Amber Roast</strong><br>
-        7 Maple Avenue, AL8 2EF<br>
-        Distance: 0.2 miles<br>
-        <span style="color: red;">Closes at 4:30pm, in 1hr 53min</span><br>
+        <strong>Amber Roast</strong><br />
+        7 Maple Avenue, AL8 2EF<br />
+        Distance: 0.2 miles<br />
+        <span style="color: red;">Closes at 4:30pm, in 1hr 53min</span><br />
         Delivery, In-store, Step-free access
       </div>
     </div>
+
+    <!-- Right: Working Google Map -->
     <div class="col-md-7">
       <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="100%" style="border:0;" allowfullscreen></iframe>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.7695020662553!2d-0.204498823413075!3d51.80256461230866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763cce13f2a337%3A0x8cc9b20c40889457!2sWelwyn%20Garden%20City!5e0!3m2!1sen!2suk!4v1718628921344!5m2!1sen!2suk" 
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </div>
 </div>
 
+<!-- 🔻 Footer -->
 <footer>
   <p>© Copyright Brewtopia Design 2025</p>
   <div class="footer-links">
